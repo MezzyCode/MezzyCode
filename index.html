@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test</title>
+</head>
+
+<body>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .main-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 5rem 1fr;
+    }
+
+    .figure {
+      display: grid;
+      justify-items: center;
+    }
+
+    .figure>img {
+      max-width: 350px;
+    }
+  </style>
+
+  <div class="main">
+    <h1>About Me</h1>
+    <p>Hello, I'm Mez. I spent a week creating my first "Hello, World!" program in C. It's not due to a lack of
+      skill, no siree. It's because</p>
+    <div>
+      <div class="grid">
+        <strong>Name</strong>
+        <p>Mez</p>
+        <strong>Real Name</strong>
+        <p>Real Mez</p>
+        <strong>Language</strong>
+        <p>Anything as long as i'm allowed to use search engine</p>
+        <strong>Tools</strong>
+        <p>bebebebeb</p>
+      </div>
+    </div>
+    <div>
+      <figure class="figure">
+        <img src="assets/yankee-cropped.png" alt="Yankee with No Brim">
+        <figcaption>Fig.1 - Yankee with no brim.</figcaption>
+      </figure>
+    </div>
+  </div>
+</body>
+
+</html>
